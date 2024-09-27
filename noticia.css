@@ -1,0 +1,102 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #222;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Noticia */
+.noticia {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.imagen-noticia {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.titulo-noticia {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+}
+
+.fecha-noticia, .autor-noticia {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.autor-noticia strong {
+    color: #333;
+}
+
+.contenido-noticia p {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #007BFF;
+    border-left: 4px solid #007BFF;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ddd;
+    color: #555;
+}
+
+.footer p {
+    font-size: 1rem;
+    color: #888;
+}
