@@ -1,155 +1,217 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de Noticias ASN</title>
-    <link rel="stylesheet" href="blog1.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="">
 </head>
+
 <body>
-    <header>
-        <h1>Blog de Noticias ASN</h1>
-        <nav>
-            <ul>
-                <li><a href="#tecnologia">Tecnología</a></li>
-                <li><a href="#deportes">Deportes</a></li>
-                <li><a href="#cultura">Cultura</a></li>
-                <li><a href="#economia">Economía</a></li>
-            </ul>
-        </nav>
+    <!-- Encabezado con barra de navegación -->
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+
+            <h1 class="text-center">Blog de Noticias ASN</h1>
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a class="nav-link" href="#tecnologia">Tecnología</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#deportes">Deportes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cultura">Cultura</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#economia">Economía</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </div>
     </header>
 
-    <main>
+    <main class="container my-5">
+
         <!-- Sección de Tecnología -->
+        <section id="tecnologia" class="seccion mb-5">
 
-        <section id="tecnologia" class="seccion">
-            <h2>Tecnología</h2>
-            
-            <div class="articulos">
+            <h2 class="text-center mb-4">Tecnología</h2>
 
-                <article>
-                    <img src="img\1.webp">
-                    <h3><a href="https://www.wix.com/templateses/news-blog2-es/post/el-mayor-despliegue-de-eeuu-desde-vietnam">Noticia 1 de Tecnología</a></h3>
-                    <p>Resumen de la noticia 1...</p>
+            <div class="row">
+
+                <!-- Artículo 1 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="img/Apple iPhone 15 Pro & iPhone 15 Pro_ Max.jpeg" alt="Noticia 1">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="tecnologia/noticia1.html" class="text-dark">Apple.inc</a></h3>
+                            <p class="card-text">Nuevo lanzamiento de Apple</p>
+                        </div>
+                    </div>
                 </article>
 
-                <article>
-                    <img src="img\1.webp">
-                    <h3><a href="https://www.wix.com/templateses/news-blog2-es">Noticia 2 de Tecnología</a></h3>
-                    <p>Resumen de la noticia 2...</p>
+                <!-- Artículo 2 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="/img/Aprende IA generativa con los cursos gratuitos de Google.jpeg" alt="Noticia 2">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="/tecnologia/noticia2.html" class="text-dark">Google</a></h3>
+                            <p class="card-text">Nueva inteligencia artificial</p>
+                        </div>
+                    </div>
                 </article>
 
-                <article>
-                    <img src="img\2.webp">
-                    <h3><a href="noticia.html">Noticia 3 de Tecnología</a></h3>
-                    <p>Resumen de la noticia 3...</p>
+                <!-- Artículo 3 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="/img/microsoft.jpeg" alt="Noticia 3">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="/tecnologia/tecnologia3.html" class="text-dark">Microsoft</a></h3>
+                            <p class="card-text">Nueva versión del windows 11</p>
+                        </div>
+                    </div>
                 </article>
 
-                <article>
-                    <img src="img\2.webp">
-                    <h3><a href="#">Noticia 4 de Tecnología</a></h3>
-                    <p>Resumen de la noticia 4...</p>
+                <!-- Artículo 4 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="/img/3.webp" alt="Noticia 3">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" class="text-dark">Noticia 3 de Tecnología</a></h3>
+                            <p class="card-text">Resumen de la noticia 3...</p>
+                        </div>
+                    </div>
                 </article>
 
-                <article>
-                    <img src="img\2.webp">
-                    <h3><a href="#">Noticia 5 de Tecnología</a></h3>
-                    <p>Resumen de la noticia 5...</p>
+                <!-- Artículo 5 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="/img/3.webp" alt="Noticia 3">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" class="text-dark">Noticia 3 de Tecnología</a></h3>
+                            <p class="card-text">Resumen de la noticia 3...</p>
+                        </div>
+                    </div>
                 </article>
-                
+
             </div>
-
         </section>
 
         <!-- Sección de Deportes -->
 
-        <section id="deportes" class="seccion">
-            <h2>Deportes</h2>
-            <div class="articulos">
-                <article>
-                    <h3><a href="#">Noticia 1 de Deportes</a></h3>
-                    <p>Resumen de la noticia 1...</p>
+        <section id="deportes" class="seccion mb-5">
+            <h2 class="text-center mb-4">Deportes</h2>
+            <div class="row">
+                <!-- Artículo 1 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" class="text-dark">Noticia 1 de Deportes</a></h3>
+                            <p class="card-text">Resumen de la noticia 1...</p>
+                        </div>
+                    </div>
                 </article>
-                <article>
-                    <h3><a href="#">Noticia 2 de Deportes</a></h3>
-                    <p>Resumen de la noticia 2...</p>
+                <!-- Artículo 2 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" class="text-dark">Noticia 2 de Deportes</a></h3>
+                            <p class="card-text">Resumen de la noticia 2...</p>
+                        </div>
+                    </div>
                 </article>
-                <article>
-                    <h3><a href="#">Noticia 3 de Deportes</a></h3>
-                    <p>Resumen de la noticia 3...</p>
-                </article>
-                <article>
-                    <h3><a href="#">Noticia 4 de Deportes</a></h3>
-                    <p>Resumen de la noticia 4...</p>
-                </article>
-                <article>
-                    <h3><a href="#">Noticia 5 de Deportes</a></h3>
-                    <p>Resumen de la noticia 5...</p>
+                <!-- Artículo 3 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" class="text-dark">Noticia 3 de Deportes</a></h3>
+                            <p class="card-text">Resumen de la noticia 3...</p>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
 
         <!-- Sección de Cultura -->
-
-        <section id="cultura" class="seccion">
-            <h2>Cultura</h2>
-            <div class="articulos">
-                <article>
-                    <h3><a href="#">Noticia 1 de Cultura</a></h3>
-                    <p>Resumen de la noticia 1...</p>
+        <section id="cultura" class="seccion mb-5">
+            <h2 class="text-center mb-4">Cultura</h2>
+            <div class="row">
+                <!-- Artículo 1 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" class="text-dark">Noticia 1 de Cultura</a></h3>
+                            <p class="card-text">Resumen de la noticia 1...</p>
+                        </div>
+                    </div>
                 </article>
-                <article>
-                    <h3><a href="#">Noticia 2 de Cultura</a></h3>
-                    <p>Resumen de la noticia 2...</p>
+                <!-- Artículo 2 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" class="text-dark">Noticia 2 de Cultura</a></h3>
+                            <p class="card-text">Resumen de la noticia 2...</p>
+                        </div>
+                    </div>
                 </article>
-                <article>
-                    <h3><a href="#">Noticia 3 de Cultura</a></h3>
-                    <p>Resumen de la noticia 3...</p>
-                </article>
-                <article>
-                    <h3><a href="#">Noticia 4 de Cultura</a></h3>
-                    <p>Resumen de la noticia 4...</p>
-                </article>
-                <article>
-                    <h3><a href="#">Noticia 5 de Cultura</a></h3>
-                    <p>Resumen de la noticia 5...</p>
+                <!-- Artículo 3 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" class="text-dark">Noticia 3 de Cultura</a></h3>
+                            <p class="card-text">Resumen de la noticia 3...</p>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
 
         <!-- Sección de Economía -->
-
-        <section id="economia" class="seccion">
-            <h2>Economía</h2>
-            <div class="articulos">
-                <article>
-                    <h3><a href="#">Noticia 1 de Economía</a></h3>
-                    <p>Resumen de la noticia 1...</p>
+        <section id="economia" class="seccion mb-5">
+            <h2 class="text-center mb-4">Economía</h2>
+            <div class="row">
+                <!-- Artículo 1 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" class="text-dark">Noticia 1 de Economía</a></h3>
+                            <p class="card-text">Resumen de la noticia 1...</p>
+                        </div>
+                    </div>
                 </article>
-                <article>
-                    <h3><a href="#">Noticia 2 de Economía</a></h3>
-                    <p>Resumen de la noticia 2...</p>
+                <!-- Artículo 2 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" class="text-dark">Noticia 2 de Economía</a></h3>
+                            <p class="card-text">Resumen de la noticia 2...</p>
+                        </div>
+                    </div>
                 </article>
-                <article>
-                    <h3><a href="#">Noticia 3 de Economía</a></h3>
-                    <p>Resumen de la noticia 3...</p>
-                </article>
-                <article>
-                    <h3><a href="#">Noticia 4 de Economía</a></h3>
-                    <p>Resumen de la noticia 4...</p>
-                </article>
-                <article>
-                    <h3><a href="#">Noticia 5 de Economía</a></h3>
-                    <p>Resumen de la noticia 5...</p>
+                <!-- Artículo 3 -->
+                <article class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" class="text-dark">Noticia 3 de Economía</a></h3>
+                            <p class="card-text">Resumen de la noticia 3...</p>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>© Noticias ASN</p>
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; Noticias ASN 2024</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
+
